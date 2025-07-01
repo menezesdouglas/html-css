@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /* Medidas absolutas cm,mm,in(polegada),px,pt(ponto),pc(paica) MAIS RECOMENDADO USAR PIXEL*/
+
+            /* Medias relativas em (medida relativa ao tamanho atual da fonte), ex (relativa a altura x),rem( relativo a fonte que tá configurada no body),vw(relativo ao tamanho da tela),vh, %  MAIS RECOMENDADO USAR EM
+            16 PIXELS GERALMENTE = 2 EM*/
+            
+            /*font-size: 16px;
+            font-weight: bolder;
+            font-style:italic;
+            text-decoration: underline;
+
+            /*Weight = peso ,Width = largura,height = altura*/
+
+        }
+        h1{
+
+
+            /*shorthand font seguir a ordem: font -> font-style->font-size->font-family(TEM QUE SER EXATAMENTE NESSA ORDEM) isso elimina o trbalho de escrever cóigo muito longo ex: 
+            font-famyli:'Work Sans', sans-serif;
+            font-size: 3em;
+            font-style: italic;*/
+
+            font: italic bolder 3em 'Work Sans', sans-serif; /* esse código é o mesmo de cima porém muito menor e fácil de escrever TEM QUESER EXATAMENTE NESSA ORDEM */
+        }
+
+        h2{
+
+            font: bold 2em 'Work Sans'; /*TEM QUE SER EXATAMENTE NESSA ORDEM*/
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus et dolorem laboriosam eos expedita harum praesentium ut maxime! Unde dignissimos hic omnis iure iste commodi reiciendis quisquam aut ex possimus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta tempora autem minus aspernatur voluptas illo odio quibusdam quasi dolor tenetur, enim voluptatibus illum rerum cum corrupti ex eum, qui neque. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto aperiam, et deserunt, qui ullam aut quidem quis, quae commodi ratione fugiat? Sint, amet illo facere ea natus cum officiis suscipit! </p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, necessitatibus eveniet nostrum laudantium nam consequuntur consequatur iusto iste adipisci provident! Cum laborum maiores sed esse reprehenderit est, voluptatibus consequuntur molestias. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, nobis tempora? Provident praesentium laudantium accusamus adipisci, asperiores illum impedit perferendis saepe magnam obcaecati quod doloribus, odio soluta facere ipsam assumenda. </p>
+</body>
+</html>

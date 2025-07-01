@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserindo vídeos</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <video src="midea/video-navio.mp4" width="800" controls></video>
+    <!--ASSIM COMO NO ÁUDIO DEVE SE USAR OS FORMATOS WEBM,MP4 E OGV PARA QUE ELE FUNCIONE EM TODOS OS NAVEGADORES QUANDO COMO ESTÁ ABAIXO-->
+    <video width="800" poster="imagens/capa.jpg" autoplay loop controls>
+<source src="midea/video-navio.mp4" type="video/mp4">
+<source src="midea/video-navio.m4v" type="video/mp4">
+<source src="midea/video-navio.webm" type="video/webm">
+<source src="midea/video-navio.ogv" type="video/ogg">
+<p>Seu navegador não tem comptatibilidade com reprodução de vídeos.</p>
+    </video>
+
+    <h1>Inserindo vídeo do YouTube</h1>
+    
+    <iframe width="800" height="800" src="https://www.youtube.com/embed/OzUnqQk4eOg?si=BHw5k7sza9grj0w_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+</body>
+</html>

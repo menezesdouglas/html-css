@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML 5</title>
+</head>
+<body>
+    <H1>Imagem dinâmica</H1>
+    <p>Tente abrir esse site em vários dispositivos doferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <p>
+        <picture>
+            <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+            <img src="imagens/foto-g.png" alt="Imagem flexível">
+        </picture>
+
+        <h1>Reproduzindo Áudio</h1>
+        <p>Vamos aprender a reproduzir áudios em HTML 5.</p>
+        <audio preload="metadata" autoplay controls loop>
+            <source src="midea/mil.mp3" type="audio/mpeg">
+            <source src="midea/mil.ogg" type="audio/ogg">
+            <source src="midea/mil.wav" type="audio/wav">
+            <!--ISSO É USADO PARA CARREGAR O MESMO ÁUDIO EM DIFERENTES FORMATOS PARA NAVEGADORES DIFERENTES PARA NÃO TER PROBLEMA DE COMPATIBILIDADE (dica não usar WAV pois é muito pesado)-->
+            <P>Infelizmente seu navegador não consegue reproduzir áudio <a href="midea/mil.mp3"> Clique aqui para baixar o arquivo MP3</a></P>
+        </audio>
+        <audio src="midea/mil.mp3" controls autoplay></audio>
+        <!--MP3 WAV OGG-->
+
+    </p>
+</body>
+</html>
